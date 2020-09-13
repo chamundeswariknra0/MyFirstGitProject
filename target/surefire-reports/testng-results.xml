@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="7066" started-at="2020-09-13T19:08:34 IST" finished-at="2020-09-13T19:08:41 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="7066" started-at="2020-09-13T19:08:34 IST" finished-at="2020-09-13T19:08:41 IST">
+      <class name="com.Automation.Scripts.W2A_Home">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.Automation.Scripts.W2A_Home@3108bc]" name="openBrowser" is-config="true" duration-ms="5159" started-at="2020-09-13T19:08:29 IST" finished-at="2020-09-13T19:08:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="beforeTcExecution(java.lang.reflect.Method)[pri:0, instance:com.Automation.Scripts.W2A_Home@3108bc]" name="beforeTcExecution" is-config="true" duration-ms="1" started-at="2020-09-13T19:08:34 IST" finished-at="2020-09-13T19:08:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Automation.Scripts.W2A_Home.homePage() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTcExecution -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.Automation.Scripts.W2A_Home@3108bc]" name="homePage" duration-ms="7027" started-at="2020-09-13T19:08:34 IST" finished-at="2020-09-13T19:08:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="afterTcExecution(org.testng.ITestResult)[pri:0, instance:com.Automation.Scripts.W2A_Home@3108bc]" name="afterTcExecution" is-config="true" duration-ms="2" started-at="2020-09-13T19:08:41 IST" finished-at="2020-09-13T19:08:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePage status=SUCCESS method=W2A_Home.homePage()[pri:0, instance:com.Automation.Scripts.W2A_Home@3108bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTcExecution -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.Automation.Scripts.W2A_Home@3108bc]" name="closeBrowser" is-config="true" duration-ms="4929" started-at="2020-09-13T19:08:41 IST" finished-at="2020-09-13T19:08:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Automation.Scripts.W2A_Home -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
